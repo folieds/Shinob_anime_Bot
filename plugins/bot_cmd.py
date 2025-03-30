@@ -282,7 +282,7 @@ async def help(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/DATTEBAYO56"), 
-            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/urr_sanjiii")
+            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/PelDiya")
         ]
     ]
     if SUPPORT_GROUP:
