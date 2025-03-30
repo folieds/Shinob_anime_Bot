@@ -48,7 +48,7 @@ async def start_command(client: Client, message: Message):
     SHORTLINK_API = await db.get_shortener_api()
     TUT_VID = await db.get_tut_video()
     ADMINS = await db.get_all_admins()
-    MIN_VERIFY_TIME = 45  # Minimum time (in seconds) before verification
+    MIN_VERIFY_TIME = 90  # Minimum time (in seconds) before verification
 
     logging.info(f"Received /start command from user ID: {id}")
 
@@ -105,7 +105,7 @@ async def start_command(client: Client, message: Message):
 		        reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ᴀɢᴀɪɴ  •", url=f"https://t.me/{client.username}?start=start")],
                     [InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url=TUT_VID),
-		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/urr_sanjiii") ]
+		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/peldiya") ]
                 ])
 		)
 
@@ -221,7 +221,7 @@ async def start_command(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
                     [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton(' ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/urr_sanjiii')],
+                     InlineKeyboardButton(' ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/peldiya')],
                     [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/battousai_network')],
                 ])
         await message.reply_photo(
