@@ -41,7 +41,9 @@ HELP_TEXT = """<b>⁉️ ʜᴇʟʟᴏ {mention} ~
 <b><i>◈ Sᴛɪʟʟ ʜᴀᴠᴇ ᴅᴏᴜʙᴛs, ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ ᴘᴇʀsᴏɴs/ɢʀᴏᴜᴘ ᴀs ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅ !</i></b>"""
 
 ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ: {botname}
-<b><blockquote expandable>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/dattebayo56>ᴅᴀᴛᴛᴇʙᴀʏᴏ</a>\n» ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href=https://t.me/Battousai_Network>ʙᴀᴛᴛᴏᴜsᴀɪ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_raven>ᴀɴɪᴍᴇ ʀᴀᴠᴇɴ</a>\n» ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=t.me/ongoing_anime_raven>ᴏɴɢᴏɪɴɢ ʀᴀᴠᴇɴ</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/urr_sanjiii>𝐒ᴀɴᴊɪ 𝐒aᴍᴀ</a></b></blockquote>"""
+Update : @Umseen 
+Devloper : @metaui </b>
+"""
 
 
 SETTING_TXT = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
