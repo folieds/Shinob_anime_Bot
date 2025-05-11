@@ -105,7 +105,7 @@ async def start_command(client: Client, message: Message):
 		        reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ᴀɢᴀɪɴ  •", url=f"https://t.me/{client.username}?start=start")],
                     [InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url=TUT_VID),
-		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/peldiya") ]
+		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/umseen") ]
                 ])
 		)
 
@@ -221,8 +221,8 @@ async def start_command(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
                     [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton(' ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/peldiya')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/battousai_network')],
+                     InlineKeyboardButton(' ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/metaui')],
+                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/umseen')],
                 ])
         await message.reply_photo(
             photo = random.choice(PICS),
@@ -295,7 +295,7 @@ async def not_joined(client: Client, message: Message):
 
                 except Exception as e:
                     print(f"Can't Export Channel Name and Link..., Please Check If the Bot is admin in the FORCE SUB CHANNELS:\nProvided Force sub Channel:- {chat_id}")
-                    return await temp.edit(f"<b>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @urr_sanjiii</b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
+                    return await temp.edit(f"<b>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @metaui</b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
 
         try:
             buttons.append([InlineKeyboardButton(text='‼️ ɴᴏᴡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ‼️', url=f"https://t.me/{client.username}?start={message.command[1]}")])
@@ -317,7 +317,7 @@ async def not_joined(client: Client, message: Message):
     except Exception as e:
         print(f"Error: {e}")  # Print the error message for debugging
         # Optionally, send an error message to the user or handle further actions here
-        await temp.edit(f"<b><i>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @urr_sanjiii</i></b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
+        await temp.edit(f"<b><i>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @metaui</i></b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
 
 
 # +++ Customised By Rohit [telegram username: @rohit_1888] +++
@@ -337,7 +337,7 @@ async def restart_bot(client: Client, message: Message):
         os.execl(sys.executable, *args)
     except Exception as e:
         print(f"Error occured while Restarting the bot: {e}")
-        return await msg.edit_text(f"<b>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @urr_sanjiii</b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
+        return await msg.edit_text(f"<b>! ᴇʀʀᴏʀ, ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @metaui</b>\n<blockquote expandable><b>ʀᴇᴀsᴏɴ:</b> {e}</blockquote>")
     # Optionally, you can add cleanup tasks here
     #subprocess.Popen([sys.executable, "main.py"])  # Adjust this if your start file is named differently
     #sys.exit()
