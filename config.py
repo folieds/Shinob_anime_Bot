@@ -42,7 +42,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/ChipsTutorial/7")
 
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/8263af1da9ac363d8c580-a8912d879836f10ccd.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/9bb59500aad7bd82a5fed-a73aed8d1313fee973.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/9391e81b5959c012691fa-7082ef0f9fe62f2c56.jpg")
 
                         
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
