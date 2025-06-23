@@ -105,7 +105,7 @@ async def start_command(client: Client, message: Message):
 		        reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ᴀɢᴀɪɴ  •", url=f"https://t.me/{client.username}?start=start")],
                     [InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url=TUT_VID),
-		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/umseen") ]
+		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/uxseen") ]
                 ])
 		)
 
