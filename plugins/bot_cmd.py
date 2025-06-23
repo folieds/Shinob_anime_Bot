@@ -281,12 +281,12 @@ HELP = "https://graph.org//file/10f310dd6a7cb56ad7c0b.jpg"
 async def help(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/umseen"), 
+            InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/illegalCollege"), 
             InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/unseenxbot")
         ]
     ]
     if SUPPORT_GROUP:
-        buttons.insert(0, [InlineKeyboardButton("•  sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ɢʀᴏᴜᴘ  •", url="https://t.me/umseen")])
+        buttons.insert(0, [InlineKeyboardButton("•  sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ɢʀᴏᴜᴘ  •", url="https://t.me/illegalCollege")])
 
     try:
         reply_markup = InlineKeyboardMarkup(buttons)
