@@ -4,17 +4,18 @@ files_cmd_pic = "https://telegra.ph/file/d44f46054250a73053614.jpg"
 autodel_cmd_pic = "https://telegra.ph/file/a64533814021b40057ccd.jpg"
 
 
-SET_SHORTENER_CMD_TXT = "sʜᴏʀᴛɴᴇʀ ɪs {shortener_status}. ᴜsᴇ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄᴏɴғɪɢᴜʀᴇ ᴛʜᴇ sʜᴏʀᴛɴᴇʀ."
+SET_SHORTENER_CMD_TXT = "Shortener is {shortener_status}. Use button to configure the shortener."
 
 #start message
-START_MSG = """<b>›› ʜᴇʏ!!, {mention} ~
+START_MSG = """<b>⚡ Yo, {mention} ~
 
 <blockquote expandable>You woke me up!\nReady to dive into some chaos and grab what you need?\n\nFiles, fun and a whole lotta energy—let’s roll!.</blockquote></b>"""
 #Force sub message 
-FORCE_MSG = """<b><blockquote>» ʜᴇʏ {mention} ×,</blockquote>\nʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs..!
+FORCE_MSG = """<b><blockquote>⚠️ Hᴇʏ, {mention} ×</blockquote>\n
+ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs..!
 </b>"""
 
-CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
+CMD_TXT = """<b>🤖 𝗕𝗔𝗦𝗜𝗖 𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 :
 
 <b>/batch :</b> ᴄʀᴇᴀᴛᴇ ɢʀᴏᴜᴘ ᴍᴇssᴀɢᴇs
 
@@ -26,98 +27,96 @@ CMD_TXT = """<b>» ʙᴀsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :
 
 <b>/status :</b> ᴠɪᴇᴡ ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs"""
 
-BAN_TXT = "<b><blockquote>sᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ 🚫</blockquote></b>"
+BAN_TXT = "<b><blockquote>Sᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ 🚫</blockquote></b>"
 
-HELP_TEXT = """<b>⁉️ ʜᴇʟʟᴏ {mention} ~
+HELP_TEXT = """<b>⁉️ Hᴇʟʟᴏ {mention} ~
 
 <blockquote expandable>➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.
 
-➪ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.
+➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.
 
 ➪ Sᴏ ᴊᴏɪɴ Mᴇɴᴛɪᴏɴᴇᴅ Cʜᴀɴɴᴇʟs ᴛᴏ ɢᴇᴛ Fɪʟᴇs ᴏʀ ɪɴɪᴛɪᴀᴛᴇ ᴍᴇssᴀɢᴇs...
 
 ‣ /help -</b> Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !</blockquote>
-
 <b><i>◈ Sᴛɪʟʟ ʜᴀᴠᴇ ᴅᴏᴜʙᴛs, ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ ᴘᴇʀsᴏɴs/ɢʀᴏᴜᴘ ᴀs ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅ !</i></b>"""
 
 ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ: {botname}
-Update : @illegalCollege
-Devloper : @metaui </b>
-"""
+
+<b><blockquote expandable>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/metaui>ʜᴀᴍᴢᴀ</a>\n» ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href=https://t.me/AniHorizon>ᴀɴɪ ʜᴏʀɪᴢᴏɴ</a>\n» ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/AniHorizon>ᴀɴɪ ʜᴏʀɪᴢᴏɴ </a>\n» sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/+S6jna9Xe3-UyODhl>ᴄᴏᴅᴇ</a>\n» ʙᴏᴛ ᴄʜᴀɴɴᴇʟ : <a href=t.me/pythonbotz>ᴘʏᴛʜᴏɴ ʙᴏᴛᴢ</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/metaui>ᴍᴇᴛᴀ ᴜɪ</a></b></blockquote>"""
 
 
-SETTING_TXT = """<b>» Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
-<blockquote expandable>» ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
-» ᴛᴏᴛᴀʟ ᴀᴅᴍɪɴs:  <b>{total_admin}</b>
-» ᴛᴏᴛᴀʟ ʙᴀɴɴᴇᴅ ᴜsᴇʀs:  <b>{total_ban}</b>
-» ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴏᴅᴇ:  <b>{autodel_mode}</b>
-» ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ:  <b>{protect_content}</b>
-» ʜɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ:  <b>{hide_caption}</b>
-» ᴄʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ:  <b>{chnl_butn}</b>
-» ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: <b>{reqfsub}</b></blockquote>"""
+SETTING_TXT = """<b>⚙️ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴs</b>
+<blockquote expandable>◈ ᴛᴏᴛᴀʟ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ:  <b>{total_fsub}</b>
+◈ ᴛᴏᴛᴀʟ ᴀᴅᴍɪɴs:  <b>{total_admin}</b>
+◈ ᴛᴏᴛᴀʟ ʙᴀɴɴᴇᴅ ᴜsᴇʀs:  <b>{total_ban}</b>
+◈ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴏᴅᴇ:  <b>{autodel_mode}</b>
+◈ ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ:  <b>{protect_content}</b>
+◈ ʜɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ:  <b>{hide_caption}</b>
+◈ ᴄʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ:  <b>{chnl_butn}</b>
+◈ ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: <b>{reqfsub}</b></blockquote>"""
 
-on_txt, off_txt = "ᴇɴᴀʙʟᴇᴅ ✅", "ᴅɪsᴀʙʟᴇᴅ ❌"
+on_txt, off_txt = "Eɴᴀʙʟᴇᴅ ✅", "Dɪsᴀʙʟᴇᴅ ❌"
 
-FILES_CMD_TXT ="""<b>» ғɪʟᴇs ʀᴇʟᴀᴛᴇᴅ sᴇᴛᴛɪɴɢs
+FILES_CMD_TXT ="""<b>🤖 𝗙𝗜𝗟𝗘𝗦 𝗥𝗘𝗟𝗔𝗧𝗘𝗗 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 ⚙️
 
-<blockquote expandable>» ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ: {protect_content}
-» ʜɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ: {hide_caption}
-» ᴄʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ: {channel_button}</b>
+<blockquote expandable>🔒 ᴘʀᴏᴛᴇᴄᴛ ᴄᴏɴᴛᴇɴᴛ: {protect_content}
+🫥 ʜɪᴅᴇ ᴄᴀᴘᴛɪᴏɴ: {hide_caption}
+🔘 ᴄʜᴀɴɴᴇʟ ʙᴜᴛᴛᴏɴ: {channel_button}</b>
 
-» ʙᴜᴛᴛᴏɴ ɴᴀᴍᴇ: {name}
-» ʙᴜᴛᴛᴏɴ Lɪɴᴋ: {link}</blockquote>
+◈ ʙᴜᴛᴛᴏɴ Nᴀᴍᴇ: {name}
+◈ ʙᴜᴛᴛᴏɴ Lɪɴᴋ: {link}</blockquote>
 
 <b>ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
 
-AUTODEL_CMD_TXT = """<b>» ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴇᴛᴛɪɴɢs
+AUTODEL_CMD_TXT = """<b>🤖 𝗔𝗨𝗧𝗢 𝗗𝗘𝗟𝗘𝗧𝗘 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 ⚙️
 
-<blockquote>» ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴏᴅᴇ: {autodel_mode}</blockquote>
-<blockquote>» ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇʀ: {timer}</blockquote>
+<blockquote>🗑️ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴍᴏᴅᴇ: {autodel_mode}</blockquote>
+<blockquote>⏱ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇʀ: {timer}</blockquote>
 
-» ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
 
-FSUB_CMD_TXT = """<b>» ғᴏʀᴄᴇ sᴜʙ ᴄᴏᴍᴍᴀɴᴅs :</b>
+FSUB_CMD_TXT = """<b>🤖 𝗙𝗢𝗥𝗖𝗘 𝗦𝗨𝗕 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 :</b>
 
-<b>» /fsub_chnl</b> : ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ғᴏʀᴄᴇ-sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴀᴅᴍɪɴs)
+<b>/fsub_chnl</b> : ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ғᴏʀᴄᴇ-sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴀᴅᴍɪɴs)
 
-<b>» /add_fsub</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴏᴡɴᴇʀ)
+<b>/add_fsub</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴏᴡɴᴇʀ)
 
-<b>» /del_fsub</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴏᴡɴᴇʀ)"""
+<b>/del_fsub</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟs (ᴏᴡɴᴇʀ)"""
 
 
-USER_CMD_TXT = """<b>» ᴜsᴇʀ sᴇᴛᴛɪɴɢ ᴄᴏᴍᴍᴀɴᴅs :</b>
+USER_CMD_TXT = """<b>🤖 𝗨𝗦𝗘𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 :</b>
     
-<b>» /admin_list</b> : ᴠɪᴇᴡ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴀᴅᴍɪɴ ʟɪsᴛ (ᴏᴡɴᴇʀ)
+<b>/admin_list</b> : ᴠɪᴇᴡ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴀᴅᴍɪɴ ʟɪsᴛ (ᴏᴡɴᴇʀ)
 
-<b>» /add_admins</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ᴀs ᴀᴅᴍɪɴ (ᴏᴡɴᴇʀ)
+<b>/add_admins</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ᴀs ᴀᴅᴍɪɴ (ᴏᴡɴᴇʀ)
 
-<b>» /del_admins</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ғʀᴏᴍ ᴀᴅᴍɪɴs (ᴏᴡɴᴇʀ)
+<b>/del_admins</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ғʀᴏᴍ ᴀᴅᴍɪɴs (ᴏᴡɴᴇʀ)
 
-<b>» /banuser_list</b> : ᴠɪᴇᴡ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ʙᴀɴɴᴇᴅ ᴜsᴇʀ ʟɪsᴛ (ᴀᴅᴍɪɴs)
+<b>/banuser_list</b> : ᴠɪᴇᴡ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ʙᴀɴɴᴇᴅ ᴜsᴇʀ ʟɪsᴛ (ᴀᴅᴍɪɴs)
 
-<b>» /add_banuser</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ɪɴ ʙᴀɴɴᴇᴅ ʟɪsᴛ (ᴀᴅᴍɪɴs)
+<b>/add_banuser</b> : ᴀᴅᴅ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ɪɴ ʙᴀɴɴᴇᴅ ʟɪsᴛ (ᴀᴅᴍɪɴs)
 
-<b>» /del_banuser</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ғʀᴏᴍ ʙᴀɴɴᴇᴅ ʟɪsᴛ (ᴀᴅᴍɪɴs)"""
-
-
-
-RFSUB_CMD_TXT = """<b>» ʀᴇǫᴜᴇsᴛ ғsᴜʙ sᴇᴛᴛɪɴɢ
-
-<blockquote><b>» ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: {req_mode}</b></blockquote>
-
-» ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
+<b>/del_banuser</b> : ᴅᴇʟᴇᴛᴇ ᴏɴᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴜsᴇʀ ɪᴅs ғʀᴏᴍ ʙᴀɴɴᴇᴅ ʟɪsᴛ (ᴀᴅᴍɪɴs)"""
 
 
-RFSUB_MS_TXT = """<b>» ʀᴇǫᴜᴇsᴛ ғsᴜʙ ʟɪsᴛ :
+
+RFSUB_CMD_TXT = """<b>🤖 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗙𝗦𝗨𝗕 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 🚦
+
+<blockquote><b>📢 ʀᴇǫᴜᴇsᴛ ғsᴜʙ ᴍᴏᴅᴇ: {req_mode}</b></blockquote>
+
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
+
+
+RFSUB_MS_TXT = """<b>🤖 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗙𝗦𝗨𝗕 𝗟𝗜𝗦𝗧 🚥
 
 <blockquote expandable>{reqfsub_list}</blockquote>
-» ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
+ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs</b>"""
 
 CLEAR_USERS_TXT = """<blockquote expandable><b>What is the use of Clear Users !?</b>
 
 ➪ Cʟᴇᴀʀ Usᴇʀs ɪs ᴜsᴇᴅ ᴛᴏ ᴄʟᴇᴀʀ ᴛʜᴇ ᴀʟʟ ᴜsᴇʀ ᴅᴀᴛᴀ ᴏғ ᴀ sᴘᴇᴄɪғɪᴇᴅ Rᴇǫᴜᴇsᴛ ғᴏʀᴄᴇsᴜʙ cʜᴀɴɴᴇʟ ɪᴅ. 
 
-➪ ʜᴇʀᴇ oɴʟʏ usᴇʀ ᴅᴀᴛᴀ ɪs ᴅᴇʟᴇᴛᴇᴅ ғʀᴏᴍ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ.</blockquote>
+➪ Hᴇʀᴇ oɴʟʏ usᴇʀ ᴅᴀᴛᴀ ɪs ᴅᴇʟᴇᴛᴇᴅ ғʀᴏᴍ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ.</blockquote>
 
 <b><i>Cʜᴏᴏsᴇ ᴛʜᴇ Cʜᴀɴɴᴇʟ ɪᴅ ғᴏʀ ᴅᴇʟᴇᴛɪɴɢ ᴜsᴇʀ ᴅᴀᴛᴀ:</i></b>"""
 
@@ -128,9 +127,9 @@ CLEAR_CHNLS_TXT = """<blockquote expandable><b>What is the use of Clear Channels
 
 ➪ Hᴇʀᴇ ᴀʟʟ ᴅᴀᴛᴀ ʀᴇᴀʟᴛᴇᴅ ᴛᴏ ʀᴇǫᴜᴇsᴛ ғᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ ɪᴅ ᴅᴇʟᴇᴛᴇᴅ Pᴇʀᴍᴀɴᴇɴᴛʟʏ...
 
-<b>⚠️ WARNING:</b> ᴄʟᴇᴀʀ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴅᴀᴛᴀ ᴏɴʟʏ ᴡʜᴇɴ ɪᴛ ɪs ᴄᴏɴғɪʀᴍᴇᴅ ᴛʜᴀᴛ ᴛʜᴇ ᴅᴀᴛᴀ ᴡɪʟʟ ɴᴏ ʟᴏɴɢᴇʀ ʙᴇ ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ғᴜᴛᴜʀᴇ ᴏᴘᴇʀᴀᴛɪᴏɴs.</blockquote>
+<b>⚠️ WARNING:</b> Cʟᴇᴀʀ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴅᴀᴛᴀ ᴏɴʟʏ ᴡʜᴇɴ ɪᴛ ɪs ᴄᴏɴғɪʀᴍᴇᴅ ᴛʜᴀᴛ ᴛʜᴇ ᴅᴀᴛᴀ ᴡɪʟʟ ɴᴏ ʟᴏɴɢᴇʀ ʙᴇ ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ғᴜᴛᴜʀᴇ ᴏᴘᴇʀᴀᴛɪᴏɴs.</blockquote>
 
-<b><i>» ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ ғᴏʀ ᴅᴇʟᴇᴛɪɴɢ:</i></b>"""
+<b><i>Cʜᴏᴏsᴇ ᴛʜᴇ Cʜᴀɴɴᴇʟ ɪᴅ ғᴏʀ ᴅᴇʟᴇᴛɪɴɢ:</i></b>"""
 
 
 CLEAR_LINKS_TXT = """<blockquote expandable><b>What is the use of Clear Links !?</b>
@@ -148,4 +147,4 @@ CLEAR_LINKS_TXT = """<blockquote expandable><b>What is the use of Clear Links !?
 
 ‣ ɪғ ᴛʜᴇ ʙᴏᴛ ɴᴏᴛ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ ᴛʜᴇɴ ᴛʜɪs ᴏᴘᴇʀᴀᴛɪᴏɴ ᴄᴀɴ'ᴛ ʙᴇ ᴘᴇʀғᴏʀᴍᴇᴅ.</blockquote>
 
-<b><i>» ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ ғᴏʀ ᴅᴇʟᴇᴛɪɴɢ ʀᴇǫᴜᴇsᴛ ʟɪɴᴋ:</i></b>"""
+<b><i>Cʜᴏᴏsᴇ ᴛʜᴇ Cʜᴀɴɴᴇʟ ɪᴅ ғᴏʀ ᴅᴇʟᴇᴛɪɴɢ Rᴇǫᴜᴇsᴛ Lɪɴᴋ:</i></b>"""
