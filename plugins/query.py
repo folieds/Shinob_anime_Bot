@@ -194,7 +194,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
                     [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
                      InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/metaui')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/uxseen')],
+                    [InlineKeyboardButton("• ᴏᴜʀ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/AniHorizon/53')],
                 ]),
         )
 
