@@ -133,7 +133,7 @@ async def send_text(client: Bot, message: Message):
               ### >>>>>>>>  pin Mode Start <<<<<<< ###
 #=============================================================######## 
 
-@Bot.on_message(filters.private & filters.command('pbroadcast')  & filters.user(ADMINS))
+@Bot.on_message(filters.private & filters.command('pbroadcast')  & filters.private & is_admin)
 async def send_pin_text(client: Bot, message: Message):
     
     if message.reply_to_message:
