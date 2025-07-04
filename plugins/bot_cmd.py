@@ -128,6 +128,60 @@ async def send_text(client: Bot, message: Message):
         await msg.delete()
 
 
+
+########=============================================================#####
+              ### >>>>>>>>  pin Mode Start <<<<<<< ###
+#=============================================================######## 
+
+@Bot.on_message(filters.private & filters.command('pbroadcast')  & filters.user(ADMINS))
+async def send_pin_text(client: Bot, message: Message):
+    
+    if message.reply_to_message:
+        query = await db.full_userbase()
+        broadcast_msg = message.reply_to_message
+        total = len(query)
+        successful = 0
+        blocked = 0
+        deleted = 0
+        unsuccessful = 0
+
+        pls_wait = await message.reply("<i>ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴘʀᴏᴄᴇꜱꜱɪɴɢ....</i>")
+        for chat_id in query:
+            try:
+                # Send and pin the message
+                sent_msg = await broadcast_msg.copy(chat_id)
+                await client.pin_chat_message(chat_id=chat_id, message_id=sent_msg.id, both_sides=True)
+                successful += 1
+            except FloodWait as e:
+                await asyncio.sleep(e.x)
+                sent_msg = await broadcast_msg.copy(chat_id)
+                await client.pin_chat_message(chat_id=chat_id, message_id=sent_msg.id, both_sides=True)
+                successful += 1
+            except UserIsBlocked:
+                await db.del_user(chat_id)
+                blocked += 1
+            except InputUserDeactivated:
+                await db.del_user(chat_id)
+                deleted += 1
+            except Exception as e:
+                print(f"Failed to send or pin message to {chat_id}: {e}")
+                unsuccessful += 1
+            total += 1
+
+        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ</u></b>
+
+Total Users: <code>{total}</code>
+Successful: <code>{successful}</code>
+Blocked Users: <code>{blocked}</code>
+Deleted Accounts: <code>{deleted}</code>
+Unsuccessful: <code>{unsuccessful}</code>"""
+
+        return await pls_wait.edit(status)
+
+    else:
+        msg = await message.reply("Reply to a message to broadcast and pin it.")
+        await asyncio.sleep(8)
+        await msg.delete()
 ########=============================================================######
               ### >>>>>>>>  Forward Mode Start <<<<<<< ###
 ########=============================================================########
@@ -281,12 +335,12 @@ HELP = "https://graph.org//file/10f310dd6a7cb56ad7c0b.jpg"
 async def help(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/illegalCollege"), 
-            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/unseenxbot")
+            InlineKeyboardButton("🔥 ᴏᴡɴᴇʀ", url="https://t.me/Tharun_stryker"), 
+            InlineKeyboardButton("👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/metaui")
         ]
     ]
     if SUPPORT_GROUP:
-        buttons.insert(0, [InlineKeyboardButton("•  sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ɢʀᴏᴜᴘ  •", url="https://t.me/illegalCollege")])
+        buttons.insert(0, [InlineKeyboardButton("•  sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ɢʀᴏᴜᴘ  •", url="https://t.me/offchats")])
 
     try:
         reply_markup = InlineKeyboardMarkup(buttons)
