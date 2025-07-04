@@ -27,8 +27,8 @@ async def top_anime_command(client: Client, message: Message):
         keyboard = [[InlineKeyboardButton(f"{style_anime_title(anime.get('title'))}", callback_data=f'detail_{anime.get("mal_id")}')] 
                     for anime in top_anime_list[:10]]
         keyboard.extend([
-            [InlineKeyboardButton("• ғᴏʀ ", url='t.me/uxseen'),
-             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/uxseen')],
+            [InlineKeyboardButton("• ғᴏʀ ", url='t.me/PythonBotz'),
+             InlineKeyboardButton(" ᴍᴏʀᴇ •", url='t.me/PythonBotz')],
             [InlineKeyboardButton("•  ᴄʟᴏsᴇ  •", callback_data='close')]
              ])
         reply_markup = InlineKeyboardMarkup(keyboard)
