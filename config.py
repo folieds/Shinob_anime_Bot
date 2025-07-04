@@ -33,6 +33,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Shinob_anime_Bot")
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://sanjisama626:sanjisama626@sanjisama.lukxw8r.mongodb.net/?retryWrites=true&w=majority")
 
 
+DBV_NAME = os.environ.get("VERIFY_DBNAME", "Honistaa")
+
 TOKEN_PIC = os.environ.get("TOKEN_PIC", "https://envs.sh/N4K.jpg")
 
 
