@@ -28,7 +28,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database --⚠️ REQUIRED--
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://hamzann:hamza00@cluster0.id2lo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Shinob_anime_Bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://sanjisama626:sanjisama626@sanjisama.lukxw8r.mongodb.net/?retryWrites=true&w=majority")
 
